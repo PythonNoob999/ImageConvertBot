@@ -28,10 +28,9 @@ async def get_reply(message, ask_message, reply_markup=False, return_raw=False, 
 
 
 
-API_ID = 25299107
-API_HASH = "786fa70a24da230b78b3df1fc16a9772"
-TOKEN = "5839060193:AAGkAZwogt15AzvP5DdcbvuIfPS86XJNULo"
-
+API_ID = 0
+API_HASH = ""
+TOKEN = ""
 
 bot = Client("ImgConvertBot", API_ID,API_HASH, bot_token=TOKEN)
 
