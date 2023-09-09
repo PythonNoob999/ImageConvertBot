@@ -41,9 +41,6 @@ async def main(bot, message):
     
     if text == "/start":
         await bot.send_message(chat_id, messages["startup_message"].format(message.from_user.first_name), reply_markup=Markup(keyboards["main"]))
-
-    elif text == "/kill":
-        exit()
         
         
 @bot.on_callback_query()
