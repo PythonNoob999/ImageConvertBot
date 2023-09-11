@@ -5,4 +5,4 @@ Setup:
 
 1- CHANGE API_ID, API_HASH, TOKEN
 
-2- Install FFMPEG In Your Machin
+2- Install FFMPEG In Your Machine
